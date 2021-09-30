@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kakao Talk</title>
+</head>
+<body>
+    <div class="status-bar">
+<div class="status-bar___column">
+    <span>No Service</span>
+    <i class="fas fa-wifi"></i>
+    <!-- To do: Wifi Icon-->
+</div>
+<div class="status-bar___column">
+    <span>04:44</span>
+</div>
+<div class="status-bar___column">
+    <span>77%</span>
+    <!--Battery Icon--><i class="fas fa-battery-full fa-lg"></i>
+    <i class="fas fa-bolt"></i>
+</div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Weclome To Kokoa Clone</h1>
+        <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number</p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="email or phone number"/>
+        <input name="password" type="password"placeholder="password"/>
+        <input type="submit" value="Log in" />
+        <a href="#">Find Kakao account or password</a>
+    </form>
+    <div id="no-mobile">
+        <span>Your screen is very big :((</span>
+    </div>
+    <script src="https://kit.fontawesome.com/7fc5ab8e9f.js" crossorigin="anonymous"></script>
+</body>
+</html>
